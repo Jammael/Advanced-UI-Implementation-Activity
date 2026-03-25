@@ -8,10 +8,8 @@
 - Widgets: A footer or sidebar element labeled "Weather Widget".
 
 # DevToolsDevice Toolbar and Test Documentation
-- Iphone SE
-<img width="501" height="870" alt="image" src="https://github.com/user-attachments/assets/cfb41a48-010d-42e2-875e-bfefcad02f44" />
 
-- Dashboard UI with CSS design
+- Iphone SE Dashboard UI with CSS design
 <img width="508" height="892" alt="image" src="https://github.com/user-attachments/assets/058217cc-dd9e-444b-9c9b-c06265401310" />
 
 
@@ -20,6 +18,7 @@
 # Observation
 - One column layout in Iphone SE
 - One Column layout Ipad Pro
+
 
 ### Contributors
 1. Jammael Magallanes
