@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dashboard UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <header class="header">
+            <h1>Admin Dashboard</h1>
+            <button aria-label="Notifications" class="icon-btn">🔔</button>
+        </header>
+
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" role="button">Home</a></li>
+                <li><a href="#" role="button">Analytics</a></li>
+                <li><a href="#" role="button">Settings</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="card">
+                <h2>Statistics</h2>
+                <p>Content goes here...</p>
+                <button class="primary-btn">View Details</button>
+            </section>
+            
+            <section class="card">
+                <h2>User Activity</h2>
+                <input type="text" placeholder="Search users..." aria-label="Search users">
+            </section>
+        </main>
+
+        <aside class="widgets">
+            <div class="widget-item">Weather Widget</div>
+            <div class="widget-item">Calendar</div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
