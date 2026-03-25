@@ -137,3 +137,33 @@ a:focus, button:focus, input:focus {
     outline-offset: 4px;
     box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
 }
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-wrapper input:focus {
+    border-color: #007bff;
+}
