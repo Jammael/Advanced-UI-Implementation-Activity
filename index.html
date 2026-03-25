@@ -5,39 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Dashboard UI</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
 </head>
 <body>
 
     <div class="dashboard-container">
         <header class="header">
-            <h1>Admin Dashboard</h1>
-            <button aria-label="Notifications" class="icon-btn">🔔</button>
+            <div class="header-left">
+                <h1>Admin Dashboard</h1>
+            </div>
+            
+            <div class="header-right">
+                <button aria-label="Notifications" class="icon-btn">🔔</button>
+                <div class="user-profile">
+                    <img src="https://ui-avatars.com" alt="Profile" class="avatar">
+                    <span class="username">pjlitub</span>
+                </div>
+            </div>
         </header>
 
         <nav class="sidebar">
             <ul>
-                <li><a href="#" role="button">Home</a></li>
-                <li><a href="#" role="button">Analytics</a></li>
-                <li><a href="#" role="button">Settings</a></li>
+                <li><a href="#" role="button">🏠 Home</a></li>
+                <li><a href="#" role="button">📊 Analytics</a></li>
+                <li><a href="#" role="button">⚙️ Settings</a></li>
+                <li class="spacer"></li>
+                <li><a href="#" role="button" class="logout-btn">🚪 Logout</a></li>
             </ul>
         </nav>
 
         <main class="main-content">
             <section class="card">
-                <h2>Statistics</h2>
-                <p>Content goes here...</p>
+                <div class="card-header">
+                    <h2>Statistics</h2>
+                    <span class="badge">Live</span>
+                </div>
+                <p>Real-time data visualization and metrics.</p>
                 <button class="primary-btn">View Details</button>
             </section>
             
             <section class="card">
-                <h2>User Activity</h2>
-                <input type="text" placeholder="Search users..." aria-label="Search users">
+                <div class="card-header">
+                    <h2>User Activity</h2>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search users..." aria-label="Search users">
+                    <button class="search-btn">🔍</button>
+                </div>
             </section>
         </main>
 
         <aside class="widgets">
-            <div class="widget-item">Weather Widget</div>
-            <div class="widget-item">Calendar</div>
+            <div class="widget-item">
+                <h3>Weather</h3>
+                <p>Bohol, PH - 28°C ☀️</p>
+            </div>
+            <div class="widget-item">
+                <h3>Calendar</h3>
+                <p>March 2026</p>
+            </div>
         </aside>
     </div>
 
