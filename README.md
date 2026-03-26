@@ -15,8 +15,9 @@
 - iPad Pro Dashboard UI
 <img width="664" height="888" alt="image" src="https://github.com/user-attachments/assets/9e57bebc-8994-447a-bba0-ab20cb19ddb8" />
 
+- Responsive Dashboard UI
+- <img width="1858" height="1019" alt="image" src="https://github.com/user-attachments/assets/6bc91a23-cb55-45fc-ad11-8f7032bfe8de" />
 
-#
 
 # Observation
 - One column layout in Iphone SE
